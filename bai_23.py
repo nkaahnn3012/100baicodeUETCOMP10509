@@ -13,6 +13,9 @@ for i in range (1, n+1):
     if i % 3 == 0:
         list.append(i)
 length = len(list)
-for j in range (length):
-    print(list[j], end = " ")
-print()
+if length == 0:
+    print("-")
+else:
+    for j in range (length):
+        print(list[j], end = " ")
+    print()
