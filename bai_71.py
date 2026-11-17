@@ -26,25 +26,5 @@ elif length_x == 1:
             else:
                 s_after[i] = s[i]
         print("".join(s_after))
-# elif length_x != 1:
-#     for i in range(length_s):
-#         if i not in index:
-#             if s[i] != x[0]:
-#                 s_after.append(s[i])
-#                 index.append(i)
-#             elif s[i] == x[0]:
-#                 match = True
-#                 for j in range(i + 1, i + length_x):
-#                     if s[j] != x[j - i]:
-#                         match = False
-#                         break 
-#                 if match == True:
-#                     for k in range(i, i + length_y):
-#                         s_after.append(y[k - i])
-#                         index.append(i)
-#                 elif match == False:
-#                     s_after.append(s[i])
-#                     index.append(i)
-# print(*s_after, sep = "")
 
             
